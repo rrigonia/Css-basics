@@ -1,0 +1,50 @@
+section h1:nth-of-type(1){
+    background-color: palegreen;
+     
+}
+section h1:nth-of-type(2){
+    background-color: paleturquoise;
+     
+}
+section h1:nth-of-type(3){
+    background-color: palegoldenrod;
+     
+}
+section h1:nth-of-type(4){
+    background-color: palevioletred;
+     
+}
+
+
+
+h1{
+    width: 300px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid black;
+    padding: 0.7em;
+    margin: 20px auto;
+       
+}
+
+section:first-of-type h1:nth-of-type(1) {
+    /* transform-origin: bottom right; */
+    transform: rotate(45deg);
+
+}
+section:first-of-type h1:nth-of-type(2) {
+    /* transform-origin: bottom right; */
+    transform: scale(0.5)
+
+}
+section:first-of-type h1:nth-of-type(3) {
+    transform: translateX(200px);
+}
+section:first-of-type h1:nth-of-type(4) {
+    transform: translate(-100px,50px);
+}
+section:nth-of-type(2) h1:nth-of-type(1) {
+    transform: skew(45deg);
+}

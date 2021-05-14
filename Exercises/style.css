@@ -1,0 +1,104 @@
+
+body {
+    background-color: #ffe8d6;
+    font-family: monospace;
+    width: 900px;
+    margin-left: 0;
+    margin-right: 0;
+        
+}
+nav{
+    background-color: #d8e2dc;
+    margin-left: 0;
+    text-align: left;
+}
+li{
+    list-style: none;
+    display: inline;
+    font-size: 15px;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+h1{
+    font-size: 40px;
+    color: #f8edeb;
+    position: absolute;
+    left: 50%;
+    top: 05%;
+    transform: translate(-50%,-50%);
+}
+.pageheader img{
+    max-width: 900px;
+    max-width: 900px;
+}
+.pageheader{
+    position: relative;
+    max-width: 900px;
+}
+h2 {
+    text-align: center;
+    background-color: #d8e2dc;
+    
+    
+}
+form {
+    width: 300px;
+    background-color: #d8e2dc;
+    position: relative;
+    transform: translate(300px);
+    padding: 20px;
+    border: 3px solid rgb(211, 214, 176) ;
+    border-radius: 3em;
+    
+}
+.name{
+    text-align: center;
+}
+.score img{
+    width: 400px;
+    height: auto;
+    border: 2px solid grey;
+    border-radius: 20px;
+
+
+}
+.score {
+    position: relative;
+}
+table {
+    border: solid;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(0,50%);
+}
+h2+img{
+    margin: 0 0 20px 20px;
+}
+footer p{
+    text-align: center;
+    color: gray;
+}
+table tr{
+    background-color: snow;
+}
+th{
+    padding: 1em;
+    border: 2px solid black;
+    
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+table thead tr{
+    background-color: rgb(192, 187, 187);
+}
